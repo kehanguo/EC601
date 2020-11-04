@@ -51,6 +51,14 @@ contains thousands of 28×28 pixel handwritten digits, like this:
 ![Image](https://www.machinecurve.com/wp-content/uploads/2019/11/truck-2.png)
 
 
+
+# LSTM model: 
+So far as we have extracted features from images and give them corresponding labels,we combines the extracted features with questions together by going through a LSTM(Long-Short-Term Memory) Model, in this section, as we do not have enough image features to generate proper answers, we used an Emoji sentiment analysis instead to test our LTSM model. 
+
+The structure of LSTM is given blow:
+
+
+
 ## Next Step
 
 Combining the saliency map into VQA model.
